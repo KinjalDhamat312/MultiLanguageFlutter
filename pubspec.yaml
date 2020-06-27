@@ -1,0 +1,26 @@
+name: multiple_language
+description: Internationalization in flutter with supporting multiple language
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  shared_preferences: ^0.5.7+3
+
+
+flutter:
+
+  uses-material-design: true
+
